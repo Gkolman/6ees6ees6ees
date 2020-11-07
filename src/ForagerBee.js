@@ -4,15 +4,11 @@ class ForagerBee extends Bee{
     this.age = 10;
     this.job = 'find pollen';
     this.canFly = true;
-    this.treasureChest = [];
-    
+    this.treasureChest = []; 
   }
-
   forage(value) {
     this.treasureChest.push(value);
   }
-  
-
 };
 
 // the Bee superclass
